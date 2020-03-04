@@ -1,11 +1,16 @@
-##RULES##
+# Babelbot
+Build a book or two, or not.
+
+RULES
+--------------------
 Babelbot will build the books.
 Searchbot will read each page and assign a readability score from 0 to 2. 
 Each book will have a total readability score of 0 to 820. 
 All books with a score below 400 are destroyed.
 
 
-##STATS##
+STATS
+--------------------
 35 books to a shelf
 175 books to a wall
 875 Books in a room
@@ -17,7 +22,8 @@ All books with a score below 400 are destroyed.
 5.125 minutes a book and
 ~75 hours to rate a room
 
-##USE##
+USE
+--------------------
 ./babel.sh
 Can be ran multiple times.
 
