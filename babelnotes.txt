@@ -1,0 +1,39 @@
+# Babelbot should remain independant and be able to be shut off after x amount of books.
+#Babelbot changes: 
+##more spacing randomness
+##more randomness everywhere
+##
+##
+##
+
+# Searchbot should use better algorithem to hog less cpu (new dictionary?)
+#Searchbot changes: 
+##make parallel children searchbot (read x pages at a time) processes spawn from one parent
+##create variable at page start then move that value to new page once the page is done
+##
+##
+##
+
+
+Old babel process: 
+Create single book
+Search each page one after another, ranking each one
+Scan all page ranking and assign a ranking to whole book
+Delete book if ranking is below the threshold
+
+
+New babel process:
+Create x book(s)
+- parallel the processes if this is more then one
+- 
+Create 5 searchbot processes (per book?):
+- 410 pages, 82 pages each
+- 
+Judge the books:
+- can probably be replaced by a bashscript, or the babel script itself
+- 
+
+
+#Bigbab: Recreate to properly compare LF to rand (page by page?)
+
+#inquisitor: page by page burn til complete book
